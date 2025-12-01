@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { MenuOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../../context/AppContext";
 const { Header, Content } = Layout;
 
 export async function getServerSideProps({ params }) {

@@ -2,7 +2,7 @@ import { Layout, Drawer, Menu, Divider, Table, Input, Select, Button, Skeleton }
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { MenuOutlined } from "@ant-design/icons";
-import { useAppContext } from "./context/AppContext";
+import { useAppContext } from "../context/AppContext";
 
 const { Header, Content } = Layout;
 const { Search } = Input;

@@ -2,7 +2,7 @@ import { Layout, Drawer, Menu, Divider, Card, List, Skeleton,Button } from "antd
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { MenuOutlined } from "@ant-design/icons";
-import { useAppContext } from "./context/AppContext";
+import { useAppContext } from "../context/AppContext";
 const { Header, Content } = Layout;
 
 export async function getServerSideProps() {

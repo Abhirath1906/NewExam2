@@ -1,6 +1,6 @@
 import "../pages/styles/global.css"
 import "antd/dist/reset.css";
-import { AppProvider, useAppContext } from "./context/AppContext";
+import { AppProvider, useAppContext } from "../context/AppContext";
 
 function ThemeWrapper({ Component, pageProps }) {
   const { theme } = useAppContext();
